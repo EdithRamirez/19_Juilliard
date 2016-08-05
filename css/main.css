@@ -1,0 +1,72 @@
+/* Inserta tu codigo aqui */
+/*estilo de encabezado*/
+/*fondo de encabezado*/
+.fondo-header{
+	background: url("../img/dance_1.jpg");
+	background-repeat: no-repeat;
+	height: 320px;
+	background-size: cover;
+	background-position: 25% 2%; 
+}
+.titulo-studio{
+	font-size: 3em;	
+}
+.pad-310{
+	padding: 3% 10%;
+}
+.margen{
+	margin: 2% 0;
+}
+#btn-ins{
+	background-color: #040D23;
+	padding: 1% 3%;
+}
+/*seccion oferta clases*/
+.texto-oferta{
+	font-size: 1.3em;
+	padding: 3% 10%;
+	margin: 3%;
+}
+/*fondo de primera seccion*/
+.fondo-gris{
+	background: url("../img/textura_2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+img.decoracion{
+	width: 15%;
+	height: auto;
+	margin: -8% 0  0 42.5%;
+}
+button#btn-clases{
+	padding: 2% 8%;
+	margin: -8% 0 8% 35%;
+}
+/*estilos seccion fotos fondo*/
+.fondo-profe{
+	background-image: url("../img/instructor_4.jpg"), url("../img/profesor_9.jpg");
+	background-repeat: no-repeat;
+	background-size: 50% auto;
+	border: 1px solid #192951;
+	background-position: left top, right top;
+}
+.borde-azul{
+	border: 2px solid #192951;
+}
+.altura{
+	height: 250px;
+}
+#btn-instru{
+	padding: 2% 10%;
+	position: relative;
+	top: 78%;
+	left: 33%;
+	border-radius: 0;
+}
+/*mapa*/
+iframe{
+	width: 450px; 
+	height: 250px; 
+	border:0;
+	position: right;
+}

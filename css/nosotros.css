@@ -1,0 +1,43 @@
+/* Inserta tu codigo aqui */
+.fondo-header{
+	background: url("../img/dance_7.jpg");
+	background-repeat: no-repeat;
+	height: 320px;
+	background-size: 100%;
+	background-position: 100% 80%; 
+}
+/*rectangulo transparente*/
+.rectan-trans{
+	background-color: #000;
+	opacity: 0.5;
+	width: 45%;
+	height: auto;
+	padding: 2%;
+	margin: 10% 25%
+}
+/*fondo de primera seccion*/
+.fondo-textura{
+	background: url("../img/cubes.png");
+	background-repeat: repeat;
+}
+
+/*estilos fotos profesores*/
+img{
+	width: 100%;
+}
+.img-profesor{
+	height: 180px;
+	overflow: hidden;
+}
+/*estilos generales pagina*/
+h2{
+	font-size: 1.5em;
+	padding: 3% 0;
+}
+.pad-8{
+	padding: 8%;
+}
+h3{
+	font-size: 1em;
+	margin: 5% 0;
+}

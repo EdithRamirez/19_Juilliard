@@ -1,0 +1,76 @@
+/* Inserta tu codigo que es común para todas las páginas aqui */
+/*estilo titulo*/
+h1>a{
+	text-decoration: none;
+	color: #192951;
+}
+h1>a:hover{
+	color: #2F49AB;
+}
+/*estilos del menu*/
+.menu a{
+	margin: 1% 0;
+	padding: 2%;
+	text-decoration: none;
+	display: inline-block;
+	color: #AEACAC;
+}
+/*padding*/
+.pad{
+	padding: 2% 5%;
+}
+/*titulo*/
+.text-contacto{
+	font-size: 1.5em; 
+}
+/*formulario*/
+form{
+	margin: 5%;
+}
+input, textarea{
+	border: 1px solid #BFBFBF;
+	color: #BFBFBF;
+	padding: 1% 5%;
+	margin: 1%;
+	width: 50%;
+	display: block;
+}
+input.user{
+	background: url("../img/iconos/user.png") no-repeat transparent;
+	background-position: 5%;
+}
+input.email{
+	background: url("../img/iconos/email.png") no-repeat transparent;
+	background-position: 5%;
+}
+textarea.pencil{
+	background: url("../img/iconos/pencil.png") no-repeat transparent;
+	background-position: 5% 6%;
+}
+/*botones azules*/
+button, input.boton-azul{
+	border: 0;
+	background-color: #192951;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 2px;
+}
+/*fondo de contactanos*/
+.fondo-form{
+	background: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+/*fondo azul*/
+.fondo-azul{
+	background-color: #192951;
+}
+
+/*estilo frase main y nosotros*/
+.frase{
+	padding: 0 5%;
+	margin: 10%;
+	font-size: 1.8em;
+	font-weight: bold;
+}
