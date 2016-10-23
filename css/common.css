@@ -7,6 +7,9 @@ h1>a{
 h1>a:hover{
 	color: #2F49AB;
 }
+h2{
+	font-size: 1.5em;
+}
 /*estilos del menu*/
 .menu a{
 	margin: 1% 0;
@@ -19,9 +22,15 @@ h1>a:hover{
 .pad{
 	padding: 2% 5%;
 }
+.pd-5{
+	padding: 5%;
+}
+.mg-5{
+	margin: 5% 6% 0;
+}
 /*titulo*/
 .text-contacto{
-	font-size: 1.5em; 
+	font-size: 2em; 
 }
 /*formulario*/
 form{
@@ -30,22 +39,22 @@ form{
 input, textarea{
 	border: 1px solid #BFBFBF;
 	color: #BFBFBF;
-	padding: 1% 5%;
+	padding: 1% 4%;
 	margin: 1%;
 	width: 50%;
 	display: block;
 }
 input.user{
-	background: url("../img/iconos/user.png") no-repeat transparent;
-	background-position: 5%;
+	background: url("../img/iconos/user.png") no-repeat transparent; 
+	background-position: 4%;
 }
 input.email{
 	background: url("../img/iconos/email.png") no-repeat transparent;
-	background-position: 5%;
+	background-position: 4%;
 }
 textarea.pencil{
 	background: url("../img/iconos/pencil.png") no-repeat transparent;
-	background-position: 5% 6%;
+	background-position: 4% 6%;
 }
 /*botones azules*/
 button, input.boton-azul{
@@ -66,11 +75,18 @@ button, input.boton-azul{
 .fondo-azul{
 	background-color: #192951;
 }
-
 /*estilo frase main y nosotros*/
 .frase{
 	padding: 0 5%;
 	margin: 10%;
 	font-size: 1.8em;
 	font-weight: bold;
+}
+/*margen boton*/
+.margen{
+	margin: 2% 0;
+}
+/*padding textos*/
+.pdt-2{
+	padding-top: 2%;
 }

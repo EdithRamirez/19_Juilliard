@@ -14,9 +14,6 @@
 .pad-310{
 	padding: 3% 10%;
 }
-.margen{
-	margin: 2% 0;
-}
 #btn-ins{
 	background-color: #040D23;
 	padding: 1% 3%;
@@ -47,7 +44,7 @@ button#btn-clases{
 	background-image: url("../img/instructor_4.jpg"), url("../img/profesor_9.jpg");
 	background-repeat: no-repeat;
 	background-size: 50% auto;
-	border: 1px solid #192951;
+	border: 2px solid #192951;
 	background-position: left top, right top;
 }
 .borde-azul{

@@ -1,11 +1,20 @@
 /* Inserta tu codigo aqui */
 div>img{
-	width: 50%;
-	height: auto;
-
-
+	width: 100%;
+	height: 500px;
 }
-/*margin y padding*/
-.pad{
-	padding: 2% 10%;
+/*cuadro negro descripcion*/
+.cuadro{
+	background-color: rgba(0,0,0,.8);
+	color: #fff;
+	position: absolute;
+	width: 23%;
+	padding: 4% 2%;
+	margin: 0 2%; 
+}
+.arriba{
+	top: 50%;
+}
+.abajo{
+	top: 120%;
 }
